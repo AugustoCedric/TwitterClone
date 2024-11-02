@@ -28,8 +28,6 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "django_extensions",
     'twitter.apps.TwitterConfig',
-    "order",
-    "product",
     "rest_framework",
     "debug_toolbar",
 ]
