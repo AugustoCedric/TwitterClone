@@ -11,7 +11,6 @@ files = [
     {file = "asgiref-3.8.1.tar.gz", hash = "sha256:c343bd80a0bec947a9860adb4c432ffa7db769836c64238fc34bdc3fec84d590"},
 ]
 
-
 [package.dependencies]
 typing-extensions = {version = ">=4", markers = "python_version < \"3.11\""}
 
