@@ -1,4 +1,4 @@
-version: '3.9'
+version: "3.9"
 
 services:
   db:
@@ -8,9 +8,9 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data/
     environment:
-      - POSTGRES_USER=TwitterClone
-      - POSTGRES_PASSWORD=TwitterClone
-      - POSTGRES_DB=TwitterClone_dev_db
+      - POSTGRES_USER=bookstore_dev
+      - POSTGRES_PASSWORD=bookstore_dev
+      - POSTGRES_DB=bookstore_dev_db
   web:
     build: .
     command: python manage.py runserver 0.0.0.0:8000
