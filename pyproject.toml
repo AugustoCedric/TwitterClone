@@ -4,7 +4,6 @@ version = "0.1.0"
 description = "twitter API"
 authors = ["Augusto Cedric <cedric.pmi.rmp@gmail.com>"]
 license = "MIT"
-python = ">=3.7,<4"
 
 
 [tool.poetry.dependencies]
